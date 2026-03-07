@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="api-base-url" content="" />
+  <title>LRC Youth Contacts</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- Header -->
+    <header class="header">
+      <div class="header-top">
+        <div class="brand">
+          <div class="brand-title">Lebanese Red Cross — Youth Sector</div>
+          <div class="brand-subtitle">Youth Crisis Structure & Contacts</div>
+        </div>
+
+        <!-- Language Toggle -->
+        <div class="lang-toggle">
+          <button class="lang-btn active" data-lang="en" type="button">EN</button>
+          <button class="lang-btn" data-lang="ar" type="button">AR</button>
+        </div>
+        <button class="btn admin-open-btn" type="button" id="admin-open-btn">Admin Login</button>
+      </div>
+
+      <!-- TOC Title + Note (EN only, same as your current) -->
+      <div class="toc-head">
+        <div id="toc-title-en" class="toc-title">Table of Contents</div>
+        <div id="toc-title-ar" class="toc-title hidden">جدول المحتويات</div>
+
+        <div id="toc-note-en" class="toc-note">
+          Use search, expand/collapse, or jump to sections.
+        </div>
+        <div id="toc-note-ar" class="toc-note hidden">
+          استخدم البحث أو فتح/إغلاق الكل أو الانتقال إلى الأقسام.
+        </div>
+      </div>
+
+      <!-- TOC -->
+      <nav class="toc">
+        <div id="toc-en">
+          <!-- Main sections -->
+          <a class="toc-link" href="#contacts">Contacts</a>
+
+          <!-- Category shortcuts (inside Contacts) -->
+          <a class="toc-link" href="#cat-crisis">Crisis Leadership</a>
+          <a class="toc-link" href="#cat-functions">Functions / Departments</a>
+          <a class="toc-link" href="#cat-districts">District Contacts</a>
+        </div>
+
+        <div id="toc-ar" class="hidden">
+          <a class="toc-link" href="#contacts-ar">جهات الاتصال</a>
+          <a class="toc-link" href="#cat-crisis-ar">قيادة الأزمة</a>
+          <a class="toc-link" href="#cat-functions-ar">الأقسام / الوظائف</a>
+          <a class="toc-link" href="#cat-districts-ar">جهات اتصال المناطق</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Actions + Search (same placement you have) -->
+    <div class="header-actions">
+      <div class="action-row">
+        <button class="btn" type="button" data-expand="en" data-ui-lang="en">Expand All</button>
+        <button class="btn" type="button" data-collapse="en" data-ui-lang="en">Collapse All</button>
+        <button class="btn hidden" type="button" data-expand="ar" data-ui-lang="ar">فتح الكل</button>
+        <button class="btn hidden" type="button" data-collapse="ar" data-ui-lang="ar">إغلاق الكل</button>
+      </div>
+
+      <div class="search-row">
+        <div class="search-wrap">
+          <input
+            class="search-input"
+            data-lang="en"
+            type="text"
+            placeholder="Search by name, role, district, phone..."
+            autocomplete="off"
+          />
+          <div class="search-filters">
+            <select id="search-category-filter" class="search-filter-select" aria-label="Category filter"></select>
+            <select id="search-division-filter" class="search-filter-select" aria-label="Division filter"></select>
+            <button id="search-clear-filters" class="btn search-clear-btn" type="button">Clear</button>
+          </div>
+
+          <div id="results-en" class="results-panel hidden">
+            <div class="result-list"></div>
+            <div class="empty-note hidden">No results found.</div>
+          </div>
+
+          <div id="results-ar" class="results-panel hidden">
+            <div class="result-list"></div>
+            <div class="empty-note hidden">لا توجد نتائج.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="admin-panel hidden" id="admin-panel">
+      <h3 class="admin-title">Admin Editor</h3>
+      <div id="login-status" class="admin-status hidden"></div>
+
+      <div id="admin-editor" class="admin-editor hidden">
+        <div class="admin-actions">
+          <button class="btn" type="button" id="admin-refresh">Refresh Data</button>
+          <button class="btn" type="button" id="admin-save-all">Save All Changes</button>
+          <button class="btn" type="button" id="add-person-btn">Add Person</button>
+          <button class="btn" type="button" id="add-category-btn">Add Category</button>
+          <button class="btn" type="button" id="add-division-btn">Add Division</button>
+          <button class="btn" type="button" id="logout-btn">Logout</button>
+        </div>
+      </div>
+    </section>
+
+    <div id="admin-login-modal" class="admin-modal hidden" role="dialog" aria-modal="true" aria-labelledby="admin-login-title">
+      <div class="admin-modal-card">
+        <div class="admin-modal-head">
+          <h3 id="admin-login-title">Admin Login</h3>
+          <button class="btn" type="button" id="login-close-btn">Close</button>
+        </div>
+        <form id="login-form" class="admin-login">
+          <input id="login-username" class="admin-input" type="text" placeholder="Username" autocomplete="username" />
+          <input id="login-password" class="admin-input" type="password" placeholder="Password" autocomplete="current-password" />
+          <button class="btn" type="submit">Login</button>
+        </form>
+        <div id="login-modal-status" class="admin-status hidden"></div>
+      </div>
+    </div>
+
+    <div id="admin-add-modal" class="admin-modal hidden" role="dialog" aria-modal="true" aria-labelledby="admin-add-title">
+      <div class="admin-modal-card">
+        <div class="admin-modal-head">
+          <h3 id="admin-add-title">Add Item</h3>
+          <button class="btn" type="button" id="add-close-btn">Close</button>
+        </div>
+
+        <form id="admin-add-form" class="admin-login">
+          <select id="add-category-select" class="admin-select hidden"></select>
+          <select id="add-division-select" class="admin-select hidden"></select>
+
+          <input id="add-key" class="admin-input" type="text" placeholder="Key" />
+          <input id="add-title-en" class="admin-input" type="text" placeholder="Title EN" />
+          <input id="add-title-ar" class="admin-input" type="text" placeholder="Title AR" />
+
+          <input id="add-person-name-en" class="admin-input hidden" type="text" placeholder="Person Name EN" />
+          <input id="add-person-name-ar" class="admin-input hidden" type="text" placeholder="Person Name AR" />
+          <input id="add-person-phone" class="admin-input hidden" type="text" placeholder="Phone" />
+          <input id="add-person-email" class="admin-input hidden" type="email" placeholder="Email" />
+          <input id="add-role-en" class="admin-input hidden" type="text" placeholder="Role EN" />
+          <input id="add-role-ar" class="admin-input hidden" type="text" placeholder="Role AR" />
+          <input id="add-department-en" class="admin-input hidden" type="text" placeholder="Department EN" />
+          <input id="add-department-ar" class="admin-input hidden" type="text" placeholder="Department AR" />
+          <input id="add-district-en" class="admin-input hidden" type="text" placeholder="District EN" />
+          <input id="add-district-ar" class="admin-input hidden" type="text" placeholder="District AR" />
+
+          <button class="btn" type="submit">Save</button>
+        </form>
+
+        <div id="add-modal-status" class="admin-status hidden"></div>
+      </div>
+    </div>
+
+    <!-- =========================
+         EN PAGE
+    ========================== -->
+    <main id="page-en" class="page active">
+
+      <details class="section-details" open>
+        <summary class="section-summary" id="contacts">
+          <span class="section-title">Contacts</span>
+          <span class="section-hint">Tap to open/close</span>
+        </summary>
+
+        <div class="section-card">
+          <!-- Optional: short legend -->
+          <div class="note-box" style="margin-top:0;">
+            <strong>Structure:</strong>
+            Crisis Leadership → Functions/Departments → District Contacts.
+          </div>
+
+          <!-- CATEGORY 1 -->
+          <div id="cat-crisis"></div>
+          <h3 class="cat-title">Crisis Leadership</h3>
+          <div class="person-grid" id="peopleHost-en-crisis"></div>
+
+          <!-- CATEGORY 2 -->
+          <div id="cat-functions"></div>
+          <h3 class="cat-title">Functions / Departments</h3>
+          <div class="person-grid" id="peopleHost-en-functions"></div>
+
+          <!-- CATEGORY 3 -->
+          <div id="cat-districts"></div>
+          <h3 class="cat-title">District Contacts</h3>
+          <div class="person-grid" id="peopleHost-en-districts"></div>
+
+          <!-- Keep your original host too (backward compatibility) -->
+          <div class="person-grid hidden" id="peopleHost-en"></div>
+        </div>
+      </details>
+
+    </main>
+
+    <!-- =========================
+         AR PAGE (kept same concept, no extra TOC changes)
+    ========================== -->
+    <main id="page-ar" class="page">
+
+      <details class="section-details" open>
+        <summary class="section-summary" id="contacts-ar">
+          <span class="section-title">جهات الاتصال</span>
+          <span class="section-hint">اضغط للفتح/الإغلاق</span>
+        </summary>
+
+        <div class="section-card">
+
+          <div id="cat-crisis-ar"></div>
+          <h3 class="cat-title">قيادة الأزمة</h3>
+          <div class="person-grid" id="peopleHost-ar-crisis"></div>
+
+          <div id="cat-functions-ar"></div>
+          <h3 class="cat-title">الأقسام / الوظائف</h3>
+          <div class="person-grid" id="peopleHost-ar-functions"></div>
+
+          <div id="cat-districts-ar"></div>
+          <h3 class="cat-title">جهات اتصال المناطق</h3>
+          <div class="person-grid" id="peopleHost-ar-districts"></div>
+
+          <!-- Keep your original host too (backward compatibility) -->
+          <div class="person-grid hidden" id="peopleHost-ar"></div>
+        </div>
+      </details>
+
+    </main>
+
+    <!-- Footer (Version MUST be here, not top) -->
+    <footer class="footer">
+      <div class="footer-grid">
+
+        <div class="footer-card">
+          <div><strong>Lebanese Red Cross — Youth Sector</strong></div>
+          <div>Developed by PMER Youth</div>
+          <div style="margin-top:8px;">Version <span id="footer-version-en">—</span> | Lebanese Red Cross Youth</div>
+          <div style="margin-top:6px;">Generated: <span id="footer-generated-en">—</span> Beirut Time</div>
+        </div>
+
+        <div class="footer-card">
+          <div><strong>الصليب الأحمر اللبناني — قطاع الناشئين والشباب</strong></div>
+          <div>تم التطوير من قبل PMER Youth</div>
+          <div style="margin-top:8px;">Version <span id="footer-version-ar">—</span> | Lebanese Red Cross Youth</div>
+          <div style="margin-top:6px;">تاريخ التوليد: <span id="footer-generated-ar">—</span> Beirut Time</div>
+        </div>
+
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Your frontend logic -->
+  <!-- IMPORTANT: remove the second CSS include to avoid conflicts -->
+  <script>
+    if (window.location.hostname.endsWith("github.io")) {
+      window.__API_BASE_URL__ = "https://contacts-admin-crisis-2026.fly.dev";
+    }
+  </script>
+  <script src="index.js"></script>
+</body>
+</html>
