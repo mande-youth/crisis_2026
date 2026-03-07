@@ -698,6 +698,17 @@ summary.section-summary::-webkit-details-marker{ display: none; }
   color: var(--ink);
 }
 
+.district-link{
+  color: var(--lrc-red-dark);
+  font-weight: 700;
+  border-bottom: 1px dashed rgba(138, 23, 34, 0.45);
+}
+
+.district-link:hover{
+  text-decoration: none;
+  border-bottom-color: rgba(138, 23, 34, 0.8);
+}
+
 /* actions */
 .person-actions{
   display: flex;

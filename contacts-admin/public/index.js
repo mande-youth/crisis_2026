@@ -407,6 +407,18 @@
       .trim();
   }
 
+  function isAllDistrictValue(value) {
+    const compact = normalizeText(value).replace(/\s+/g, "");
+    return (
+      compact === "alldistrict" ||
+      compact === "alldistricts" ||
+      compact === "allregions" ||
+      compact === "allregion" ||
+      compact === "كلالمناطق" ||
+      compact === "كافةالمناطق"
+    );
+  }
+
   function getSearchControls() {
     return {
       category: document.getElementById("search-category-filter"),
@@ -572,6 +584,28 @@
         catAnchor.classList.toggle("hidden", !hasVisible);
       }
     });
+  }
+
+  function revealElementPath(el, stopAt) {
+    let cur = el;
+    while (cur && cur !== stopAt) {
+      cur.classList?.remove("hidden");
+      cur = cur.parentElement;
+    }
+  }
+
+  function findDistrictContactTarget(lang, districtLabel) {
+    const page = document.getElementById(lang === "ar" ? "page-ar" : "page-en");
+    if (!page) return null;
+    const targetNorm = normalizeText(districtLabel);
+    if (!targetNorm) return null;
+
+    const districtCards = qsa('.searchable[data-category-key="districts"]', page);
+    return (
+      districtCards.find((card) => normalizeText(card.dataset.district || "") === targetNorm) ||
+      districtCards.find((card) => normalizeText(card.dataset.name || "").includes(targetNorm)) ||
+      null
+    );
   }
 
   function searchCards(lang, query) {
@@ -837,6 +871,12 @@
     const role = localizeFetchedValue(getContactValue(person, "role", lang), "role", lang);
     const district = localizeFetchedValue(getContactValue(person, "district", lang), "district", lang);
     const division = localizeFetchedValue(getContactValue(person, "department", lang), "department", lang);
+    const districtAnchor = lang === "ar" ? "cat-districts-ar" : "cat-districts";
+    const districtLinkable = district && !isAllDistrictValue(district);
+    const districtValueHtml = escapeHtml(district);
+    const districtHtml = districtLinkable
+      ? `<a class="district-link" href="#${districtAnchor}" data-district="${districtValueHtml}">${districtValueHtml}</a>`
+      : districtValueHtml;
 
     const phoneDigits = makePhoneDigits(person?.phone);
     const phoneDisplay = person?.phone || "";
@@ -898,7 +938,7 @@
       <h4 class="person-name">${escapeHtml(name)}</h4>
 
       ${role ? `<p class="person-role"><span class="label">${escapeHtml(L.role)}:</span> ${escapeHtml(role)}</p>` : ""}
-      ${district ? `<p class="person-line"><span class="label">${escapeHtml(L.district)}:</span> ${escapeHtml(district)}</p>` : ""}
+      ${district ? `<p class="person-line"><span class="label">${escapeHtml(L.district)}:</span> ${districtHtml}</p>` : ""}
       ${division ? `<p class="person-line"><span class="label">${escapeHtml(L.division)}:</span> ${escapeHtml(division)}</p>` : ""}
       ${phoneDisplay ? `<p class="person-line"><span class="label">${escapeHtml(L.phone)}:</span> <span class="ltr-text">${escapeHtml(phoneDisplay)}</span></p>` : ""}
       ${email ? `<p class="person-line"><span class="label">${escapeHtml(L.email)}:</span> <a href="${mail}" class="ltr-text">${escapeHtml(email)}</a></p>` : ""}
@@ -1618,6 +1658,33 @@
     qs("#division-save")?.addEventListener("click", saveDivisionLocal);
 
     document.addEventListener("click", async (e) => {
+      const districtLink = e.target.closest(".district-link");
+      if (districtLink) {
+        e.preventDefault();
+        const districtLabel = String(districtLink.dataset.district || districtLink.textContent || "").trim();
+        const districtAnchor = state.lang === "ar" ? "cat-districts-ar" : "cat-districts";
+        const targetCard = findDistrictContactTarget(state.lang, districtLabel);
+
+        if (targetCard) {
+          const page = getActivePage();
+          revealElementPath(targetCard, page);
+          openParents(targetCard);
+          const targetId = ensureCardId(targetCard, state.lang);
+          history.replaceState(null, "", `#${targetId}`);
+          targetCard.scrollIntoView({ behavior: "smooth", block: "start" });
+          focusCard(targetCard);
+          return;
+        }
+
+        const anchor = document.getElementById(districtAnchor);
+        if (anchor) {
+          openParents(anchor);
+          history.replaceState(null, "", `#${districtAnchor}`);
+          anchor.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+        return;
+      }
+
       const editBtn = e.target.closest(".card-edit-btn");
       if (editBtn) {
         const card = e.target.closest(".person-card");
