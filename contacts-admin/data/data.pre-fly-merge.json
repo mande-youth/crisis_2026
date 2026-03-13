@@ -1,0 +1,2250 @@
+{
+  "meta": {
+    "version": "1.5",
+    "org_en": "Lebanese Red Cross — Youth Sector",
+    "org_ar": "الصليب الأحمر اللبناني — قطاع الناشئين والشباب",
+    "developedBy_en": "Developed by PMER Youth",
+    "developedBy_ar": "تم التطوير من قبل PMER Youth",
+    "generatedAt": "2026-03-07T00:56:34.491Z",
+    "schema": "normalized-v2"
+  },
+  "people": [
+    {
+      "id": "person-miriana-bader",
+      "name_en": "Miriana Bader",
+      "name_ar": "مريانا بدر",
+      "phone": "70049254",
+      "email": "miriana.bader@redcross.org.lb"
+    },
+    {
+      "id": "person-anthony-bader",
+      "name_en": "Anthony Bader",
+      "name_ar": "انطوني بدر",
+      "phone": "76030384",
+      "email": "anthony.bader@gmail.com"
+    },
+    {
+      "id": "person-haneen-khalifeh",
+      "name_en": "Haneen Khalifeh",
+      "name_ar": "حنين خليفة",
+      "phone": "70879938",
+      "email": "haneen.khalifeh@redcross.org.lb"
+    },
+    {
+      "id": "person-asaad-sraieddine",
+      "name_en": "Asaad Sraieddine",
+      "name_ar": "اسعد سري الدين",
+      "phone": "76712949",
+      "email": "reporting.youth@redcross.org.lb"
+    },
+    {
+      "id": "person-nasr-khalil",
+      "name_en": "Nasr Khalil",
+      "name_ar": "نصر خليل",
+      "phone": "76472310",
+      "email": "mande.youth@redcross.org.lb"
+    },
+    {
+      "id": "person-ghiwa-maalouf",
+      "name_en": "Ghiwa Maalouf",
+      "name_ar": "غوى معلوف",
+      "phone": "71775903",
+      "email": ""
+    },
+    {
+      "id": "person-elie-hawi",
+      "name_en": "Elie Hawi",
+      "name_ar": "ايلي هاوي",
+      "phone": "70699378",
+      "email": ""
+    },
+    {
+      "id": "person-justina-afif",
+      "name_en": "Justina Afif",
+      "name_ar": "جستينا عفيف",
+      "phone": "76626365",
+      "email": ""
+    },
+    {
+      "id": "person-aida-salem",
+      "name_en": "Aida Salem",
+      "name_ar": "عايدة سالم",
+      "phone": "76394536",
+      "email": ""
+    },
+    {
+      "id": "person-sally-hatoum",
+      "name_en": "Sally Hatoum",
+      "name_ar": "سالي حاطوم",
+      "phone": "78921059",
+      "email": ""
+    },
+    {
+      "id": "person-joud-ghanem",
+      "name_en": "Joud Ghanem",
+      "name_ar": "جود غانم",
+      "phone": "70316586",
+      "email": ""
+    },
+    {
+      "id": "person-lama-karim",
+      "name_en": "Lama Karim",
+      "name_ar": "لما كريم",
+      "phone": "71836301",
+      "email": ""
+    },
+    {
+      "id": "person-rabih-zoghbi",
+      "name_en": "Rabih Zoghbi",
+      "name_ar": "ربيع الزغبي",
+      "phone": "03540127",
+      "email": ""
+    },
+    {
+      "id": "person-charlie-fakhry",
+      "name_en": "Charlie Fakhry",
+      "name_ar": "شارلي فخري",
+      "phone": "71019235",
+      "email": ""
+    },
+    {
+      "id": "person-miriana-kostantine",
+      "name_en": "Miriana Kostantine",
+      "name_ar": "مريانا قستنطين",
+      "phone": "03014707",
+      "email": ""
+    },
+    {
+      "id": "person-ricardo-yaakoub",
+      "name_en": "Ricardo Yaakoub",
+      "name_ar": "ريكاردو يعقوب",
+      "phone": "78826166",
+      "email": ""
+    },
+    {
+      "id": "person-safi-malaeb",
+      "name_en": "Safi Malaeb",
+      "name_ar": "صافي ملاعب",
+      "phone": "76600948",
+      "email": ""
+    },
+    {
+      "id": "person-nai-majari",
+      "name_en": "Nai Majari",
+      "name_ar": "ناي مجري",
+      "phone": "70936546",
+      "email": ""
+    },
+    {
+      "id": "person-ali-hashoush",
+      "name_en": "Ali Hashoush",
+      "name_ar": "علي حشحوش",
+      "phone": "03658059",
+      "email": ""
+    },
+    {
+      "id": "person-catherine-iskandar",
+      "name_en": "Catherine Iskandar",
+      "name_ar": "كاترين اسكندر",
+      "phone": "81309663",
+      "email": "catherine.iskandar@redcross.org.lb"
+    },
+    {
+      "id": "person-vanessa-sayde",
+      "name_en": "Vanessa Sayde",
+      "name_ar": "فانيسا السيدة",
+      "phone": "78856839",
+      "email": ""
+    },
+    {
+      "id": "person-hanane-othman",
+      "name_en": "Hanane Othman",
+      "name_ar": "حنان عثمان",
+      "phone": "81693261",
+      "email": ""
+    },
+    {
+      "id": "person-serena-nour-abdulsater",
+      "name_en": "Serena Nour Abdulsater",
+      "name_ar": "سيرينا نور عبد الساتر",
+      "phone": "76866030",
+      "email": ""
+    },
+    {
+      "id": "person-jana-khanafer",
+      "name_en": "Jana Khanafer",
+      "name_ar": "جنى خنافر",
+      "phone": "76476050",
+      "email": ""
+    },
+    {
+      "id": "person-racha-saad",
+      "name_en": "Racha Saad",
+      "name_ar": "رشا سعد",
+      "phone": "71568772",
+      "email": ""
+    },
+    {
+      "id": "person-intisar-mokdad",
+      "name_en": "Intisar Mokdad",
+      "name_ar": "انتصار مقداد",
+      "phone": "81667076",
+      "email": ""
+    },
+    {
+      "id": "person-simar-abu-malek",
+      "name_en": "Simar Abu Malek",
+      "name_ar": "ثمار ابو مالك",
+      "phone": "78828660",
+      "email": "fleet.youth@redcross.org.lb"
+    },
+    {
+      "id": "person-elie-bou-akel",
+      "name_en": "Elie Bou Akel",
+      "name_ar": "ايلي بو عقل",
+      "phone": "70449912",
+      "email": ""
+    },
+    {
+      "id": "person-joya-mitri",
+      "name_en": "Joya Mitri",
+      "name_ar": "جويا متري",
+      "phone": "70400857",
+      "email": ""
+    },
+    {
+      "id": "person-charbel-sukkar",
+      "name_en": "Charbel Sukkar",
+      "name_ar": "شربل سكر",
+      "phone": "70204008",
+      "email": ""
+    },
+    {
+      "id": "person-georges-fardisi",
+      "name_en": "Georges Fardisi",
+      "name_ar": "جورج فرديسي",
+      "phone": "81808238",
+      "email": ""
+    },
+    {
+      "id": "person-thea-chaoul",
+      "name_en": "Thea Chaoul",
+      "name_ar": "تيا شعول",
+      "phone": "76570366",
+      "email": ""
+    },
+    {
+      "id": "person-rami-el-aaysami",
+      "name_en": "Rami El Aaysami",
+      "name_ar": "رامي العيصمي",
+      "phone": "71672456",
+      "email": ""
+    },
+    {
+      "id": "person-ramy-dergham",
+      "name_en": "Ramy Dergham",
+      "name_ar": "رامي ضرغام",
+      "phone": "03469966",
+      "email": "rami.dergham@redcross.org.lb"
+    },
+    {
+      "id": "person-enaam-chaaban",
+      "name_en": "Enaam Chaaban",
+      "name_ar": "انعام شعبان",
+      "phone": "71685239",
+      "email": ""
+    },
+    {
+      "id": "person-rita-boustany",
+      "name_en": "Rita Boustany",
+      "name_ar": "ريتا بستاني",
+      "phone": "81676703",
+      "email": ""
+    },
+    {
+      "id": "person-moussa-chalhoub",
+      "name_en": "Moussa Chalhoub",
+      "name_ar": "موسى شلهوب",
+      "phone": "76388613",
+      "email": "logistics.youth@redcross.org.lb"
+    },
+    {
+      "id": "person-albert-jawhar",
+      "name_en": "Albert Jawhar",
+      "name_ar": "البير جوهر",
+      "phone": "70529532",
+      "email": "national.activities.youth@redcross.org.lb"
+    },
+    {
+      "id": "person-rita-wehbeh",
+      "name_en": "Rita Wehbeh",
+      "name_ar": "ريتا وهبة",
+      "phone": "70246994",
+      "email": "pr.youth@gmail.com"
+    },
+    {
+      "id": "person-adham-chayya",
+      "name_en": "Adham Chayya",
+      "name_ar": "ادهم شيا",
+      "phone": "78921848",
+      "email": "vm.youth@redcross.org.lb"
+    },
+    {
+      "id": "person-marcello-saade",
+      "name_en": "Marcello Saade",
+      "name_ar": "مارسيلو سعادة",
+      "phone": "70271743",
+      "email": ""
+    },
+    {
+      "id": "person-fatima-merhi",
+      "name_en": "Fatima Merhi",
+      "name_ar": "فاطمة مرعي",
+      "phone": "81786091",
+      "email": ""
+    },
+    {
+      "id": "person-bader-zaherddine",
+      "name_en": "Bader Zaherddine",
+      "name_ar": "بدر زهر الدين",
+      "phone": "71512462",
+      "email": ""
+    },
+    {
+      "id": "person-shadi-al-hakim",
+      "name_en": "Shadi Al Hakim",
+      "name_ar": "شادي الحكيم",
+      "phone": "71599442",
+      "email": ""
+    },
+    {
+      "id": "person-ghina-sweidan",
+      "name_en": "Ghina Sweidan",
+      "name_ar": "غنى سويدان",
+      "phone": "76568198",
+      "email": ""
+    },
+    {
+      "id": "person-elodie-ojeil",
+      "name_en": "Elodie Ojeil",
+      "name_ar": "ايلودي عجيل",
+      "phone": "70357843",
+      "email": "elodie.ojeil@redcross.org.lb"
+    },
+    {
+      "id": "person-abbas-dandach",
+      "name_en": "Abbas Dandach",
+      "name_ar": "عباس دندش",
+      "phone": "70063490",
+      "email": ""
+    },
+    {
+      "id": "person-kinan-shamandi",
+      "name_en": "Kinan Shamandi",
+      "name_ar": "كنان شمندي",
+      "phone": "78845438",
+      "email": ""
+    },
+    {
+      "id": "person-george-kazan",
+      "name_en": "George Kazan",
+      "name_ar": "جورج قزان",
+      "phone": "70293356",
+      "email": ""
+    },
+    {
+      "id": "person-marie-sol-jabbour",
+      "name_en": "Marie-Sol Jabbour",
+      "name_ar": "ماريصول جبور",
+      "phone": "81217633",
+      "email": ""
+    },
+    {
+      "id": "person-jennifer-ibrahim",
+      "name_en": "Jennifer Ibrahim",
+      "name_ar": "جنيفر ابراهيم",
+      "phone": "81424351",
+      "email": ""
+    },
+    {
+      "id": "person-georgette-dalala",
+      "name_en": "Georgette Dalala",
+      "name_ar": "جورجيت ضلالة",
+      "phone": "3375901",
+      "email": ""
+    },
+    {
+      "id": "person-charbel-saab",
+      "name_en": "Charbel Saab",
+      "name_ar": "شربل صعب",
+      "phone": "70308393",
+      "email": ""
+    },
+    {
+      "id": "person-johnny-elias",
+      "name_en": "Johnny Elias",
+      "name_ar": "جوني الياس",
+      "phone": "81698935",
+      "email": ""
+    },
+    {
+      "id": "person-hanane-osman",
+      "name_en": "Hanane Osman",
+      "name_ar": "حنان عثمان",
+      "phone": "81693261",
+      "email": ""
+    },
+    {
+      "id": "person-chris-raffoul",
+      "name_en": "Chris Raffoul",
+      "name_ar": "كريس رافول",
+      "phone": "81625242",
+      "email": ""
+    },
+    {
+      "id": "person-paul-ibrahim",
+      "name_en": "Paul Ibrahim",
+      "name_ar": "بول ابراهيم",
+      "phone": "70530439",
+      "email": ""
+    },
+    {
+      "id": "person-sarah-semaan",
+      "name_en": "Sarah Semaan",
+      "name_ar": "سارة سمعان",
+      "phone": "70657446",
+      "email": ""
+    },
+    {
+      "id": "person-mira-rizk",
+      "name_en": "Mira Rizk",
+      "name_ar": "ميرا رزق",
+      "phone": "76579724",
+      "email": ""
+    },
+    {
+      "id": "person-mabelle-rechdan",
+      "name_en": "Mabelle Rechdan",
+      "name_ar": "مابيل رشدان",
+      "phone": "81628064",
+      "email": ""
+    },
+    {
+      "id": "person-rita-el-asmar",
+      "name_en": "Rita El Asmar",
+      "name_ar": "ريتا الاسمر",
+      "phone": "71269286",
+      "email": ""
+    },
+    {
+      "id": "person-naeem-shreim",
+      "name_en": "Naeem Shreim",
+      "name_ar": "نعيم شريم",
+      "phone": "76032511",
+      "email": ""
+    },
+    {
+      "id": "person-angie-chaaya",
+      "name_en": "Angie Chaaya",
+      "name_ar": "انجي شعيا",
+      "phone": "76586073",
+      "email": ""
+    },
+    {
+      "id": "person-hawraa-al-atat",
+      "name_en": "Hawraa Al Atat",
+      "name_ar": "حوراء الاتات",
+      "phone": "81439320",
+      "email": ""
+    },
+    {
+      "id": "person-jana-bou-dargham",
+      "name_en": "Jana Bou Dargham",
+      "name_ar": "جنى بو ضرغام",
+      "phone": "76931526",
+      "email": ""
+    },
+    {
+      "id": "person-kaysar-daou",
+      "name_en": "Kaysar Daou",
+      "name_ar": "قيصر ضو",
+      "phone": "71392379",
+      "email": ""
+    },
+    {
+      "id": "person-ali-al-hadi-hassan-abdo",
+      "name_en": "Ali Al Hadi Hassan Abdo",
+      "name_ar": "علي الهادي حسان عبدو",
+      "phone": "76581502",
+      "email": ""
+    },
+    {
+      "id": "person-marwa-yassin",
+      "name_en": "Marwa Yassin",
+      "name_ar": "مروى ياسين",
+      "phone": "70700115",
+      "email": ""
+    },
+    {
+      "id": "person-ahmad-chakifi",
+      "name_en": "Ahmad Chakifi",
+      "name_ar": "احمد شقيفي",
+      "phone": "76932022",
+      "email": ""
+    },
+    {
+      "id": "person-souheir-jamil",
+      "name_en": "Souheir Jamil",
+      "name_ar": "سهير جميل",
+      "phone": "70789197",
+      "email": ""
+    },
+    {
+      "id": "person-haifa-zwaiehed",
+      "name_en": "Haifa Zwaiehed",
+      "name_ar": "هيفا زويهد",
+      "phone": "81957552",
+      "email": ""
+    },
+    {
+      "id": "person-sana-seif",
+      "name_en": "Sana Seif",
+      "name_ar": "سنا سيف",
+      "phone": "76781544",
+      "email": ""
+    },
+    {
+      "id": "person-ghadir-hassouna",
+      "name_en": "Ghadir Hassouna",
+      "name_ar": "غدير حسونة",
+      "phone": "81897418",
+      "email": ""
+    },
+    {
+      "id": "person-samia-nakouzi",
+      "name_en": "Samia Nakouzi",
+      "name_ar": "سامية ناقوزي",
+      "phone": "76617250",
+      "email": ""
+    },
+    {
+      "id": "person-lara-abdallah",
+      "name_en": "Lara Abdallah",
+      "name_ar": "لارا عبدالله",
+      "phone": "70909615",
+      "email": ""
+    },
+    {
+      "id": "person-mohamad-hessewe",
+      "name_en": "Mohamad Hessewe",
+      "name_ar": "محمد حساوي",
+      "phone": "71466513",
+      "email": ""
+    },
+    {
+      "id": "person-charbel-nasr",
+      "name_en": "Charbel Nasr",
+      "name_ar": "شربل نصر",
+      "phone": "03 008 457",
+      "email": "charbel.21nasr@icloud.com"
+    },
+    {
+      "id": "person-charbel-nasr-2",
+      "name_en": "Charbel Nasr",
+      "name_ar": "شربل نصر",
+      "phone": "03 008 457",
+      "email": "charbel.21nasr@icloud.com"
+    },
+    {
+      "id": "person-abed-el-nasser",
+      "name_en": "Abed El Nasser",
+      "name_ar": "عبد الناصر",
+      "phone": "81 206 498",
+      "email": ""
+    }
+  ],
+  "categories": [
+    {
+      "key": "crisis",
+      "title": {
+        "en": "Crisis Leadership",
+        "ar": "قيادة الأزمة"
+      },
+      "divisions": [
+        {
+          "key": "sector-leadership",
+          "title": {
+            "en": "Sector Leadership",
+            "ar": "قيادة القطاع"
+          },
+          "roles": [
+            {
+              "id": "person-miriana-bader",
+              "personId": "person-miriana-bader",
+              "role_en": "Head of Youth Sector",
+              "role_ar": "مديرة قطاع الناشئين والشباب",
+              "district_en": "NML",
+              "district_ar": "جبل لبنان الشمالي",
+              "department_en": "Head of Youth Sector",
+              "department_ar": "مديرة قطاع الناشئين والشباب",
+              "notes_en": "Final operational decision-maker during crisis",
+              "notes_ar": "صاحب القرار التشغيلي النهائي خلال الأزمة"
+            }
+          ]
+        },
+        {
+          "key": "crisis-coordination",
+          "title": {
+            "en": "Crisis Coordination",
+            "ar": "تنسيق الأزمة"
+          },
+          "roles": [
+            {
+              "id": "person-anthony-bader",
+              "personId": "person-anthony-bader",
+              "role_en": "Head of Youth Crisis",
+              "role_ar": "مسؤول إدارة الأزمات لقطاع الناشئين والشباب",
+              "district_en": "",
+              "district_ar": "",
+              "department_en": "Head of Youth Crisis",
+              "department_ar": "مسؤول إدارة الأزمات لقطاع الناشئين والشباب",
+              "notes_en": "Runs day-to-day crisis operations",
+              "notes_ar": "يدير العمليات اليومية خلال الأزمة"
+            }
+          ]
+        },
+        {
+          "key": "Blood-Drive",
+          "title": {
+            "en": "Blood Drive",
+            "ar": "نقل الدم"
+          },
+          "roles": [
+            {
+              "id": "role-person-abed-el-nasser-blood-drive",
+              "personId": "person-abed-el-nasser",
+              "role_en": "Blood Drive",
+              "role_ar": "نقل الدم",
+              "district_en": "",
+              "district_ar": "",
+              "department_en": "Blood Drive",
+              "department_ar": "نقل الدم",
+              "notes_en": "",
+              "notes_ar": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "functions",
+      "title": {
+        "en": "Functions / Departments",
+        "ar": "الأقسام / الوظائف"
+      },
+      "divisions": [
+        {
+          "key": "pmer",
+          "title": {
+            "en": "PMER",
+            "ar": "قسم المتابعة والتقييم والمساءلة والتعلّم"
+          },
+          "roles": [
+            {
+              "id": "person-haneen-khalifeh",
+              "personId": "person-haneen-khalifeh",
+              "role_en": "Head of PMER",
+              "role_ar": "مسؤولة قسم المتابعة والتقييم والمساءلة والتعلّم",
+              "district_en": "",
+              "district_ar": "",
+              "department_en": "Head of PMER",
+              "department_ar": "مسؤولة قسم المتابعة والتقييم والمساءلة والتعلّم",
+              "notes_en": "Supervises PMER, reporting, governance, and information management",
+              "notes_ar": "تشرف على المتابعة والتقييم والمساءلة والتعلّم، وإعداد التقارير، والحوكمة، وإدارة المعلومات"
+            },
+            {
+              "id": "pmer-asaad-sraieddine",
+              "personId": "person-asaad-sraieddine",
+              "role_en": "Head of Reporting",
+              "role_ar": "رئيس قسم التقارير",
+              "district_en": "",
+              "district_ar": "",
+              "department_en": "Head of Reporting",
+              "department_ar": "رئيس قسم التقارير",
+              "notes_en": "Sector-wide reporting focal",
+              "notes_ar": "مسؤول إعداد التقارير على مستوى القطاع"
+            },
+            {
+              "id": "pmer-nasr-khalil",
+              "personId": "person-nasr-khalil",
+              "role_en": "Head of M&E / Tech",
+              "role_ar": "مسؤول قسم المتابعة والتقييم / التقنية",
+              "district_en": "NML",
+              "district_ar": "جبل لبنان الشمالي",
+              "department_en": "Head of M&E / Tech",
+              "department_ar": "مسؤول قسم المتابعة والتقييم / التقنية",
+              "notes_en": "Supports infrastructure, analytics, data quality, access, and support under PMER",
+              "notes_ar": "يدعم البنية التحتية، والتحليلات، وجودة البيانات، وإمكانية الوصول، والدعم ضمن المتابعة والتقييم والمساءلة والتعلّم"
+            },
+            {
+              "id": "dept-pmer-ghiwa-maalouf-bekaa",
+              "personId": "person-ghiwa-maalouf",
+              "role_en": "PMER Focal",
+              "role_ar": "نقطة اتصال المتابعة والتقييم والمساءلة والتعلّم",
+              "district_en": "Bekaa",
+              "district_ar": "البقاع",
+              "department_en": "PMER Focal",
+              "department_ar": "نقطة اتصال المتابعة والتقييم والمساءلة والتعلّم",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "dept-pmer-elie-hawi-north",
+              "personId": "person-elie-hawi",
+              "role_en": "PMER Focal",
+              "role_ar": "نقطة اتصال المتابعة والتقييم والمساءلة والتعلّم",
+              "district_en": "North",
+              "district_ar": "الشمال",
+              "department_en": "PMER Focal",
+              "department_ar": "نقطة اتصال المتابعة والتقييم والمساءلة والتعلّم",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "dept-pmer-justina-afif-nml",
+              "personId": "person-justina-afif",
+              "role_en": "PMER Focal",
+              "role_ar": "نقطة اتصال المتابعة والتقييم والمساءلة والتعلّم",
+              "district_en": "NML",
+              "district_ar": "جبل لبنان الشمالي",
+              "department_en": "PMER Focal",
+              "department_ar": "نقطة اتصال المتابعة والتقييم والمساءلة والتعلّم",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "dept-pmer-aida-salem-sml1",
+              "personId": "person-aida-salem",
+              "role_en": "PMER Focal",
+              "role_ar": "نقطة اتصال المتابعة والتقييم والمساءلة والتعلّم",
+              "district_en": "SML1",
+              "district_ar": "جبل لبنان الجنوبي ١",
+              "department_en": "PMER Focal",
+              "department_ar": "نقطة اتصال المتابعة والتقييم والمساءلة والتعلّم",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "dept-pmer-sally-hatoum-sml2",
+              "personId": "person-sally-hatoum",
+              "role_en": "PMER Focal",
+              "role_ar": "نقطة اتصال المتابعة والتقييم والمساءلة والتعلّم",
+              "district_en": "SML2",
+              "district_ar": "جبل لبنان الجنوبي ٢",
+              "department_en": "PMER Focal",
+              "department_ar": "نقطة اتصال المتابعة والتقييم والمساءلة والتعلّم",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "dept-pmer-joud-ghanem-beirut",
+              "personId": "person-joud-ghanem",
+              "role_en": "PMER Focal",
+              "role_ar": "نقطة اتصال المتابعة والتقييم والمساءلة والتعلّم",
+              "district_en": "Beirut",
+              "district_ar": "بيروت",
+              "department_en": "PMER Focal",
+              "department_ar": "نقطة اتصال المتابعة والتقييم والمساءلة والتعلّم",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "dept-pmer-lama-karim-south",
+              "personId": "person-lama-karim",
+              "role_en": "PMER Focal",
+              "role_ar": "نقطة اتصال المتابعة والتقييم والمساءلة والتعلّم",
+              "district_en": "South",
+              "district_ar": "الجنوب",
+              "department_en": "PMER Focal",
+              "department_ar": "نقطة اتصال المتابعة والتقييم والمساءلة والتعلّم",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "role-person-charbel-nasr-2-tech",
+              "personId": "person-charbel-nasr-2",
+              "role_en": "Tech",
+              "role_ar": "التقني",
+              "district_en": "NML",
+              "district_ar": "جبل لبنان الشمالي",
+              "department_en": "MandE",
+              "department_ar": "المتابعة والتقييم",
+              "notes_en": "",
+              "notes_ar": ""
+            }
+          ]
+        },
+        {
+          "key": "distribution",
+          "title": {
+            "en": "Distribution",
+            "ar": "التوزيع"
+          },
+          "roles": [
+            {
+              "id": "dept-distribution-head",
+              "personId": "person-anthony-bader",
+              "role_en": "Distribution Oversight",
+              "role_ar": "الإشراف على التوزيع",
+              "district_en": "NML",
+              "district_ar": "جبل لبنان الشمالي",
+              "department_en": "Distribution Oversight",
+              "department_ar": "الإشراف على التوزيع",
+              "notes_en": "District Distribution Focals report directly under the day-to-day crisis coordination layer.",
+              "notes_ar": "نقاط اتصال التوزيع في الأقضية تُبلغ مباشرةً إلى طبقة تنسيق الأزمة اليومية."
+            },
+            {
+              "id": "dept-distribution-rabih-zoghbi-bekaa",
+              "personId": "person-rabih-zoghbi",
+              "role_en": "Distribution Focal",
+              "role_ar": "نقطة اتصال التوزيع",
+              "district_en": "Bekaa",
+              "district_ar": "البقاع",
+              "department_en": "Distribution Focal",
+              "department_ar": "نقطة اتصال التوزيع",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "dept-distribution-charlie-fakhry-north",
+              "personId": "person-charlie-fakhry",
+              "role_en": "Distribution Focal",
+              "role_ar": "نقطة اتصال التوزيع",
+              "district_en": "North",
+              "district_ar": "الشمال",
+              "department_en": "Distribution Focal",
+              "department_ar": "نقطة اتصال التوزيع",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "dept-distribution-miriana-kostantine-nml",
+              "personId": "person-miriana-kostantine",
+              "role_en": "Distribution Focal",
+              "role_ar": "نقطة اتصال التوزيع",
+              "district_en": "NML",
+              "district_ar": "جبل لبنان الشمالي",
+              "department_en": "Distribution Focal",
+              "department_ar": "نقطة اتصال التوزيع",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "dept-distribution-ricardo-yaakoub-sml1",
+              "personId": "person-ricardo-yaakoub",
+              "role_en": "Distribution Focal",
+              "role_ar": "نقطة اتصال التوزيع",
+              "district_en": "SML1",
+              "district_ar": "جبل لبنان الجنوبي 1",
+              "department_en": "Distribution Focal",
+              "department_ar": "نقطة اتصال التوزيع",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "dept-distribution-safi-malaeb-sml2",
+              "personId": "person-safi-malaeb",
+              "role_en": "Distribution Focal",
+              "role_ar": "نقطة اتصال التوزيع",
+              "district_en": "SML2",
+              "district_ar": "جبل لبنان الجنوبي 2",
+              "department_en": "Distribution Focal",
+              "department_ar": "نقطة اتصال التوزيع",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "dept-distribution-nai-majari-beirut",
+              "personId": "person-nai-majari",
+              "role_en": "Distribution Focal",
+              "role_ar": "نقطة اتصال التوزيع",
+              "district_en": "Beirut",
+              "district_ar": "بيروت",
+              "department_en": "Distribution Focal",
+              "department_ar": "نقطة اتصال التوزيع",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "dept-distribution-ali-hashoush-south",
+              "personId": "person-ali-hashoush",
+              "role_en": "Distribution Focal",
+              "role_ar": "نقطة اتصال التوزيع",
+              "district_en": "South",
+              "district_ar": "الجنوب",
+              "department_en": "Distribution Focal",
+              "department_ar": "نقطة اتصال التوزيع",
+              "notes_en": "",
+              "notes_ar": ""
+            }
+          ]
+        },
+        {
+          "key": "mhpss-pgi",
+          "title": {
+            "en": "MHPSS / PGI",
+            "ar": "الدعم النفسي / الحماية"
+          },
+          "roles": [
+            {
+              "id": "person-catherine-iskandar",
+              "personId": "person-catherine-iskandar",
+              "role_en": "Head of MHPSS - PGI Services",
+              "role_ar": "مسؤولة الدعم النفسي / الحماية",
+              "district_en": "",
+              "district_ar": "",
+              "department_en": "Head of MHPSS - PGI Services",
+              "department_ar": "مسؤولة الدعم النفسي / الحماية",
+              "notes_en": "Leads MHPSS/PGI crisis function",
+              "notes_ar": "يقود حملة الصحة النفسية والدعم النفسي الاجتماعي وحماية الفئات الضعيفة خلال الأزمة"
+            },
+            {
+              "id": "dept-mhpss-pgi-vanessa-sayde-bekaa",
+              "personId": "person-vanessa-sayde",
+              "role_en": "MHPSS / PGI Focal",
+              "role_ar": "نقطة اتصال الدعم النفسي / الحماية",
+              "district_en": "Bekaa",
+              "district_ar": "البقاع",
+              "department_en": "MHPSS / PGI Focal",
+              "department_ar": "نقطة اتصال الدعم النفسي / الحماية",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "dept-mhpss-pgi-hanane-othman-north",
+              "personId": "person-hanane-othman",
+              "role_en": "MHPSS / PGI Focal",
+              "role_ar": "نقطة اتصال الدعم النفسي / الحماية",
+              "district_en": "North",
+              "district_ar": "الشمال",
+              "department_en": "MHPSS / PGI Focal",
+              "department_ar": "نقطة اتصال الدعم النفسي / الحماية",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "dept-mhpss-pgi-serena-nour-abdulsater-nml",
+              "personId": "person-serena-nour-abdulsater",
+              "role_en": "MHPSS / PGI Focal",
+              "role_ar": "نقطة اتصال الدعم النفسي / الحماية",
+              "district_en": "NML",
+              "district_ar": "جبل لبنان الشمالي",
+              "department_en": "MHPSS / PGI Focal",
+              "department_ar": "نقطة اتصال الدعم النفسي / الحماية",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "dept-mhpss-pgi-jana-khanafer-sml",
+              "personId": "person-jana-khanafer",
+              "role_en": "MHPSS / PGI Focal",
+              "role_ar": "نقطة اتصال الدعم النفسي / الحماية",
+              "district_en": "SML",
+              "district_ar": "جبل لبنان الجنوبي",
+              "department_en": "MHPSS / PGI Focal",
+              "department_ar": "نقطة اتصال الدعم النفسي / الحماية",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "dept-mhpss-pgi-racha-saad-beirut",
+              "personId": "person-racha-saad",
+              "role_en": "MHPSS / PGI Focal",
+              "role_ar": "نقطة اتصال الدعم النفسي / الحماية",
+              "district_en": "Beirut",
+              "district_ar": "بيروت",
+              "department_en": "MHPSS / PGI Focal",
+              "department_ar": "نقطة اتصال الدعم النفسي / الحماية",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "dept-mhpss-pgi-intisar-mokdad-south",
+              "personId": "person-intisar-mokdad",
+              "role_en": "MHPSS / PGI Focal",
+              "role_ar": "نقطة اتصال الدعم النفسي / الحماية",
+              "district_en": "South",
+              "district_ar": "الجنوب",
+              "department_en": "MHPSS / PGI Focal",
+              "department_ar": "نقطة اتصال الدعم النفسي / الحماية",
+              "notes_en": "",
+              "notes_ar": ""
+            }
+          ]
+        },
+        {
+          "key": "fleet",
+          "title": {
+            "en": "Fleet",
+            "ar": "الأسطول"
+          },
+          "roles": [
+            {
+              "id": "person-simar-abu-malek",
+              "personId": "person-simar-abu-malek",
+              "role_en": "Head of Fleet",
+              "role_ar": "مسؤول الاسطول",
+              "district_en": "",
+              "district_ar": "",
+              "department_en": "Head of Fleet",
+              "department_ar": "مسؤول الاسطول",
+              "notes_en": "Leads fleet function",
+              "notes_ar": "ينظم الاسطول"
+            },
+            {
+              "id": "dept-fleet-elie-bou-akel-bekaa",
+              "personId": "person-elie-bou-akel",
+              "role_en": "Fleet Focal",
+              "role_ar": "نقطة اتصال الأسطول",
+              "district_en": "Bekaa",
+              "district_ar": "البقاع",
+              "department_en": "Fleet Focal",
+              "department_ar": "نقطة اتصال الأسطول",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "dept-fleet-joya-mitri-north",
+              "personId": "person-joya-mitri",
+              "role_en": "Fleet Focal",
+              "role_ar": "نقطة اتصال الأسطول",
+              "district_en": "North",
+              "district_ar": "الشمال",
+              "department_en": "Fleet Focal",
+              "department_ar": "نقطة اتصال الأسطول",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "dept-fleet-charbel-sukkar-nml",
+              "personId": "person-charbel-sukkar",
+              "role_en": "Fleet Focal",
+              "role_ar": "نقطة اتصال الأسطول",
+              "district_en": "NML",
+              "district_ar": "جبل لبنان الشمالي",
+              "department_en": "Fleet Focal",
+              "department_ar": "نقطة اتصال الأسطول",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "dept-fleet-georges-fardisi-sml",
+              "personId": "person-georges-fardisi",
+              "role_en": "Fleet Focal",
+              "role_ar": "نقطة اتصال الأسطول",
+              "district_en": "SML",
+              "district_ar": "جبل لبنان الجنوبي",
+              "department_en": "Fleet Focal",
+              "department_ar": "نقطة اتصال الأسطول",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "dept-fleet-thea-chaoul-beirut",
+              "personId": "person-thea-chaoul",
+              "role_en": "Fleet Focal",
+              "role_ar": "نقطة اتصال الأسطول",
+              "district_en": "Beirut",
+              "district_ar": "بيروت",
+              "department_en": "Fleet Focal",
+              "department_ar": "نقطة اتصال الأسطول",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "dept-fleet-rami-el-aaysami-south",
+              "personId": "person-rami-el-aaysami",
+              "role_en": "Fleet Focal",
+              "role_ar": "نقطة اتصال الأسطول",
+              "district_en": "South",
+              "district_ar": "الجنوب",
+              "department_en": "Fleet Focal",
+              "department_ar": "نقطة اتصال الأسطول",
+              "notes_en": "",
+              "notes_ar": ""
+            }
+          ]
+        },
+        {
+          "key": "shelter",
+          "title": {
+            "en": "Shelter",
+            "ar": "المأوى"
+          },
+          "roles": [
+            {
+              "id": "person-ramy-dergham",
+              "personId": "person-ramy-dergham",
+              "role_en": "Head of LRC Shelter",
+              "role_ar": "مسؤول مركز الإيواء في الصليب الأحمر اللبناني",
+              "district_en": "",
+              "district_ar": "",
+              "department_en": "Head of LRC Shelter",
+              "department_ar": "مسؤول مركز الإيواء في الصليب الأحمر اللبناني",
+              "notes_en": "Responsible for shelter managed by Youth Sector",
+              "notes_ar": "مسؤول مركز الإيواء الذي يديره قطاع الناشئين والشباب"
+            },
+            {
+              "id": "dept-shelter-enaam-chaaban",
+              "personId": "person-enaam-chaaban",
+              "role_en": "Shelter Focal",
+              "role_ar": " نقطة اتصال مركز الإيواء",
+              "district_en": "",
+              "district_ar": "",
+              "department_en": "Shelter Focal",
+              "department_ar": "نقطة اتصال مركز الإيواء",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "dept-shelter-rita-boustany",
+              "personId": "person-rita-boustany",
+              "role_en": "Shelter Focal",
+              "role_ar": "نقطة اتصال مركز الإيواء",
+              "district_en": "",
+              "district_ar": "",
+              "department_en": "Shelter Focal",
+              "department_ar": "نقطة اتصال مركز الإيواء",
+              "notes_en": "",
+              "notes_ar": ""
+            }
+          ]
+        },
+        {
+          "key": "logistics",
+          "title": {
+            "en": "Logistics",
+            "ar": "اللوجستيات"
+          },
+          "roles": [
+            {
+              "id": "person-moussa-chalhoub",
+              "personId": "person-moussa-chalhoub",
+              "role_en": "Head of Logistics",
+              "role_ar": "مسؤول اللوجستيات",
+              "district_en": "",
+              "district_ar": "",
+              "department_en": "Head of Logistics",
+              "department_ar": "مسؤول اللوجستيات",
+              "notes_en": "Leads logistics, stocks, warehousing, equipment",
+              "notes_ar": "يهتم باللوجستيات، والمخزونات، والمستودعات، والمعدات"
+            }
+          ]
+        },
+        {
+          "key": "communications",
+          "title": {
+            "en": "Communications",
+            "ar": "التواصل"
+          },
+          "roles": [
+            {
+              "id": "person-albert-jawhar",
+              "personId": "person-albert-jawhar",
+              "role_en": "External Communication",
+              "role_ar": "التواصل الخارجي",
+              "district_en": "",
+              "district_ar": "",
+              "department_en": "External Communication",
+              "department_ar": "التواصل الخارجي",
+              "notes_en": "Coordinates partners and donors",
+              "notes_ar": "ينسّق مع الشركاء والمانحين"
+            },
+            {
+              "id": "person-rita-wehbeh",
+              "personId": "person-rita-wehbeh",
+              "role_en": "Head of Public Relations",
+              "role_ar": "مسؤولة العلاقات العامة",
+              "district_en": "",
+              "district_ar": "",
+              "department_en": "Head of Public Relations",
+              "department_ar": "مسؤولة العلاقات العامة",
+              "notes_en": "Handles external image and official announcements",
+              "notes_ar": "يتولى إدارة الصورة الخارجية والإعلانات الرسمية"
+            }
+          ]
+        },
+        {
+          "key": "safety",
+          "title": {
+            "en": "Safety",
+            "ar": "السلامة"
+          },
+          "roles": [
+            {
+              "id": "person-adham-chayya",
+              "personId": "person-adham-chayya",
+              "role_en": "Head of Safety",
+              "role_ar": "مسؤول السلامة",
+              "district_en": "",
+              "district_ar": "",
+              "department_en": "Head of Safety",
+              "department_ar": "مسؤول السلامة",
+              "notes_en": "Handles shelter and volunteer safety",
+              "notes_ar": "يتولى مسؤولية سلامة الملاجئ والمتطوعين"
+            },
+            {
+              "id": "dept-safety-marcello-saade-bekaa",
+              "personId": "person-marcello-saade",
+              "role_en": "Safety Focal",
+              "role_ar": "نقطة اتصال السلامة",
+              "district_en": "Bekaa",
+              "district_ar": "البقاع",
+              "department_en": "Safety Focal",
+              "department_ar": "نقطة اتصال السلامة",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "dept-safety-fatima-merhi-north",
+              "personId": "person-fatima-merhi",
+              "role_en": "Safety Focal",
+              "role_ar": "نقطة اتصال السلامة",
+              "district_en": "North",
+              "district_ar": "الشمال",
+              "department_en": "Safety Focal",
+              "department_ar": "نقطة اتصال السلامة",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "dept-safety-serena-nour-abdulsater-nml",
+              "personId": "person-serena-nour-abdulsater",
+              "role_en": "Safety Focal",
+              "role_ar": "نقطة اتصال السلامة",
+              "district_en": "NML",
+              "district_ar": "جبل لبنان الشمالي",
+              "department_en": "Safety Focal",
+              "department_ar": "نقطة اتصال السلامة",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "dept-safety-bader-zaherddine-sml",
+              "personId": "person-bader-zaherddine",
+              "role_en": "Safety Focal",
+              "role_ar": "نقطة اتصال السلامة",
+              "district_en": "SML",
+              "district_ar": "جبل لبنان الجنوبي",
+              "department_en": "Safety Focal",
+              "department_ar": "نقطة اتصال السلامة",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "dept-safety-shadi-al-hakim-beirut",
+              "personId": "person-shadi-al-hakim",
+              "role_en": "Safety Focal",
+              "role_ar": "نقطة اتصال السلامة",
+              "district_en": "Beirut",
+              "district_ar": "بيروت",
+              "department_en": "Safety Focal",
+              "department_ar": "نقطة اتصال السلامة",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "dept-safety-ghina-sweidan-south",
+              "personId": "person-ghina-sweidan",
+              "role_en": "Safety Focal",
+              "role_ar": "نقطة اتصال السلامة",
+              "district_en": "South",
+              "district_ar": "الجنوب",
+              "department_en": "Safety Focal",
+              "department_ar": "نقطة اتصال السلامة",
+              "notes_en": "",
+              "notes_ar": ""
+            }
+          ]
+        },
+        {
+          "key": "spears",
+          "title": {
+            "en": "SPEARS / HQ Counterpart",
+            "ar": "SPEARS / جهة المقر"
+          },
+          "roles": [
+            {
+              "id": "person-elodie-ojeil",
+              "personId": "person-elodie-ojeil",
+              "role_en": "Spears Focal Person",
+              "role_ar": "نقطة اتصال جهة المقر \\ SPEARS",
+              "district_en": "",
+              "district_ar": "",
+              "department_en": "Spears Focal Person",
+              "department_ar": "نقطة اتصال جهة المقر \\ SPEARS",
+              "notes_en": "HQ counterpart",
+              "notes_ar": "جهة المقر"
+            }
+          ]
+        },
+        {
+          "key": "support",
+          "title": {
+            "en": "Support",
+            "ar": "الدعم"
+          },
+          "roles": [
+            {
+              "id": "support-nasr-khalil",
+              "personId": "person-nasr-khalil",
+              "role_en": "Head of M&E / Tech",
+              "role_ar": "مسؤول قسم المتابعة والتقييم / التقنية",
+              "district_en": "",
+              "district_ar": "",
+              "department_en": "Head of M&E / Tech",
+              "department_ar": "مسؤول قسم المتابعة والتقييم / التقنية",
+              "notes_en": "Technical support for all districts.",
+              "notes_ar": "الدعم التقني لجميع الأقضية"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "districts",
+      "title": {
+        "en": "District Contacts",
+        "ar": "جهات اتصال المناطق"
+      },
+      "divisions": [
+        {
+          "key": "bekaa",
+          "title": {
+            "en": "Bekaa",
+            "ar": "البقاع"
+          },
+          "roles": [
+            {
+              "id": "district-bekaa-distribution-rabih-zoghbi",
+              "personId": "person-rabih-zoghbi",
+              "role_en": "Distribution Focal",
+              "role_ar": "نقطة اتصال التوزيع",
+              "district_en": "Bekaa",
+              "district_ar": "البقاع",
+              "department_en": "Distribution Focal",
+              "department_ar": "نقطة اتصال التوزيع",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "district-bekaa-mhpss-pgi-vanessa-sayde",
+              "personId": "person-vanessa-sayde",
+              "role_en": "MHPSS / PGI Focal",
+              "role_ar": "نقطة اتصال الدعم النفسي / الحماية",
+              "district_en": "Bekaa",
+              "district_ar": "البقاع",
+              "department_en": "MHPSS / PGI Focal",
+              "department_ar": "نقطة اتصال الدعم النفسي / الحماية",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "district-bekaa-fleet-elie-bou-akel",
+              "personId": "person-elie-bou-akel",
+              "role_en": "Fleet Focal",
+              "role_ar": "نقطة اتصال الأسطول",
+              "district_en": "Bekaa",
+              "district_ar": "البقاع",
+              "department_en": "Fleet Focal",
+              "department_ar": "نقطة اتصال الأسطول",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "district-bekaa-pmer-ghiwa-maalouf",
+              "personId": "person-ghiwa-maalouf",
+              "role_en": "PMER Focal",
+              "role_ar": "نقطة اتصال المتابعة والتقييم والمساءلة والتعلّم",
+              "district_en": "Bekaa",
+              "district_ar": "البقاع",
+              "department_en": "PMER Focal",
+              "department_ar": "نقطة اتصال المتابعة والتقييم والمساءلة والتعلّم",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "district-bekaa-safety-marcello-saade",
+              "personId": "person-marcello-saade",
+              "role_en": "Safety Focal",
+              "role_ar": "نقطة اتصال السلامة",
+              "district_en": "Bekaa",
+              "district_ar": "البقاع",
+              "department_en": "Safety Focal",
+              "department_ar": "نقطة اتصال السلامة",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "district-bekaa-center-hermel-abbas-dandach",
+              "personId": "person-abbas-dandach",
+              "role_en": "Center Crisis Focal (placeholder)",
+              "role_ar": "نقطة اتصال الأزمات في المركز (مؤقت)",
+              "district_en": "Bekaa",
+              "district_ar": "البقاع",
+              "department_en": "Distribution - Center Crisis Focal",
+              "department_ar": "نقطة اتصال الأزمات في المركز – التوزيع",
+              "notes_en": "Center: Hermel",
+              "notes_ar": "المركز: الهرمل"
+            },
+            {
+              "id": "district-bekaa-center-rachaya-kinan-shamandi",
+              "personId": "person-kinan-shamandi",
+              "role_en": "Center Crisis Focal (placeholder)",
+              "role_ar": "نقطة اتصال الأزمات في المركز (مؤقت)",
+              "district_en": "Bekaa",
+              "district_ar": "البقاع",
+              "department_en": "Distribution - Center Crisis Focal",
+              "department_ar": "نقطة اتصال الأزمات في المركز – التوزيع",
+              "notes_en": "Center: Rachaya",
+              "notes_ar": "المركز: راشيا"
+            },
+            {
+              "id": "district-bekaa-center-rayak-george-kazan",
+              "personId": "person-george-kazan",
+              "role_en": "Center Crisis Focal (placeholder)",
+              "role_ar": "نقطة اتصال الأزمات في المركز (مؤقت)",
+              "district_en": "Bekaa",
+              "district_ar": "البقاع",
+              "department_en": "Distribution - Center Crisis Focal",
+              "department_ar": "نقطة اتصال الأزمات في المركز – التوزيع",
+              "notes_en": "Center: Rayak",
+              "notes_ar": "المركز: رياق"
+            },
+            {
+              "id": "district-bekaa-center-zahle-marie-sol-jabbour",
+              "personId": "person-marie-sol-jabbour",
+              "role_en": "Center Crisis Focal (placeholder)",
+              "role_ar": "نقطة اتصال الأزمات في المركز (مؤقت)",
+              "district_en": "Bekaa",
+              "district_ar": "البقاع",
+              "department_en": "Distribution - Center Crisis Focal",
+              "department_ar": "نقطة اتصال الأزمات في المركز – التوزيع",
+              "notes_en": "Center: Zahle",
+              "notes_ar": "المركز: زحلة"
+            }
+          ]
+        },
+        {
+          "key": "north",
+          "title": {
+            "en": "North",
+            "ar": "الشمال"
+          },
+          "roles": [
+            {
+              "id": "district-north-distribution-charlie-fakhry",
+              "personId": "person-charlie-fakhry",
+              "role_en": "Distribution Focal",
+              "role_ar": "نقطة اتصال التوزيع",
+              "district_en": "North",
+              "district_ar": "الشمال",
+              "department_en": "Distribution Focal",
+              "department_ar": "نقطة اتصال التوزيع",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "district-north-mhpss-pgi-hanane-othman",
+              "personId": "person-hanane-othman",
+              "role_en": "MHPSS / PGI Focal",
+              "role_ar": "نقطة اتصال الدعم النفسي / الحماية",
+              "district_en": "North",
+              "district_ar": "الشمال",
+              "department_en": "MHPSS / PGI Focal",
+              "department_ar": "نقطة اتصال الدعم النفسي / الحماية",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "district-north-fleet-joya-mitri",
+              "personId": "person-joya-mitri",
+              "role_en": "Fleet Focal",
+              "role_ar": "نقطة اتصال الأسطول",
+              "district_en": "North",
+              "district_ar": "الشمال",
+              "department_en": "Fleet Focal",
+              "department_ar": "نقطة اتصال الأسطول",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "district-north-pmer-elie-hawi",
+              "personId": "person-elie-hawi",
+              "role_en": "PMER Focal",
+              "role_ar": "نقطة اتصال المتابعة والتقييم والمساءلة والتعلّم",
+              "district_en": "North",
+              "district_ar": "الشمال",
+              "department_en": "PMER Focal",
+              "department_ar": "نقطة اتصال المتابعة والتقييم والمساءلة والتعلّم",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "district-north-safety-fatima-merhi",
+              "personId": "person-fatima-merhi",
+              "role_en": "Safety Focal",
+              "role_ar": "نقطة اتصال السلامة",
+              "district_en": "North",
+              "district_ar": "الشمال",
+              "department_en": "Safety Focal",
+              "department_ar": "نقطة اتصال السلامة",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "district-north-center-balamand-jennifer-ibrahim",
+              "personId": "person-jennifer-ibrahim",
+              "role_en": "Center Crisis Focal (placeholder)",
+              "role_ar": "نقطة اتصال الأزمات في المركز (مؤقت)",
+              "district_en": "North",
+              "district_ar": "الشمال",
+              "department_en": "Distribution - Center Crisis Focal",
+              "department_ar": "نقطة اتصال الأزمات في المركز – التوزيع",
+              "notes_en": "Center: Balamand",
+              "notes_ar": "المركز: بلمند"
+            },
+            {
+              "id": "district-north-center-batroun-georgette-dalala",
+              "personId": "person-georgette-dalala",
+              "role_en": "Center Crisis Focal (placeholder)",
+              "role_ar": "نقطة اتصال الأزمات في المركز (مؤقت)",
+              "district_en": "North",
+              "district_ar": "الشمال",
+              "department_en": "Distribution - Center Crisis Focal",
+              "department_ar": "نقطة اتصال الأزمات في المركز – التوزيع",
+              "notes_en": "Center: Batroun",
+              "notes_ar": "المركز: بترون"
+            },
+            {
+              "id": "district-north-center-bcharre-charbel-saab",
+              "personId": "person-charbel-saab",
+              "role_en": "Center Crisis Focal (placeholder)",
+              "role_ar": "نقطة اتصال الأزمات في المركز (مؤقت)",
+              "district_en": "North",
+              "district_ar": "الشمال",
+              "department_en": "Distribution - Center Crisis Focal",
+              "department_ar": "نقطة اتصال الأزمات في المركز – التوزيع",
+              "notes_en": "Center: Bcharre",
+              "notes_ar": "المركز: بشري"
+            },
+            {
+              "id": "district-north-center-koura-johnny-elias",
+              "personId": "person-johnny-elias",
+              "role_en": "Center Crisis Focal (placeholder)",
+              "role_ar": "نقطة اتصال الأزمات في المركز (مؤقت)",
+              "district_en": "North",
+              "district_ar": "الشمال",
+              "department_en": "Distribution - Center Crisis Focal",
+              "department_ar": "نقطة اتصال الأزمات في المركز – التوزيع",
+              "notes_en": "Center: Koura",
+              "notes_ar": "المركز: الكورة"
+            },
+            {
+              "id": "district-north-center-tripoli-hanane-osman",
+              "personId": "person-hanane-osman",
+              "role_en": "Center Crisis Focal (placeholder)",
+              "role_ar": "نقطة اتصال الأزمات في المركز (مؤقت)",
+              "district_en": "North",
+              "district_ar": "الشمال",
+              "department_en": "Distribution - Center Crisis Focal",
+              "department_ar": "نقطة اتصال الأزمات في المركز – التوزيع",
+              "notes_en": "Center: Tripoli",
+              "notes_ar": "المركز: طرابلس"
+            }
+          ]
+        },
+        {
+          "key": "nml",
+          "title": {
+            "en": "NML",
+            "ar": "جبل لبنان الشمالي"
+          },
+          "roles": [
+            {
+              "id": "district-nml-distribution-miriana-kostantine",
+              "personId": "person-miriana-kostantine",
+              "role_en": "Distribution Focal",
+              "role_ar": "نقطة اتصال التوزيع",
+              "district_en": "NML",
+              "district_ar": "جبل لبنان الشمالي",
+              "department_en": "Distribution Focal",
+              "department_ar": "نقطة اتصال التوزيع",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "district-nml-center-jounieh-serena-nour-abdulsater",
+              "personId": "person-serena-nour-abdulsater",
+              "role_en": "Center Crisis Focal (placeholder)",
+              "role_ar": "نقطة اتصال الأزمات في المركز (مؤقت)",
+              "district_en": "NML",
+              "district_ar": "جبل لبنان الشمالي",
+              "department_en": "Distribution - Center Crisis Focal",
+              "department_ar": "نقطة اتصال الأزمات في المركز – التوزيع",
+              "notes_en": "Center: Jounieh",
+              "notes_ar": "Center: Jounieh"
+            },
+            {
+              "id": "district-nml-fleet-charbel-sukkar",
+              "personId": "person-charbel-sukkar",
+              "role_en": "Fleet Focal",
+              "role_ar": "نقطة اتصال الأسطول",
+              "district_en": "NML",
+              "district_ar": "جبل لبنان الشمالي",
+              "department_en": "Fleet Focal",
+              "department_ar": "نقطة اتصال الأسطول",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "district-nml-pmer-justina-afif",
+              "personId": "person-justina-afif",
+              "role_en": "PMER Focal",
+              "role_ar": "نقطة اتصال المتابعة والتقييم والمساءلة والتعلّم",
+              "district_en": "NML",
+              "district_ar": "جبل لبنان الشمالي",
+              "department_en": "PMER Focal",
+              "department_ar": "نقطة اتصال المتابعة والتقييم والمساءلة والتعلّم",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "district-nml-center-antelias-chris-raffoul",
+              "personId": "person-chris-raffoul",
+              "role_en": "Center Crisis Focal (placeholder)",
+              "role_ar": "نقطة اتصال الأزمات في المركز (مؤقت)",
+              "district_en": "NML",
+              "district_ar": "جبل لبنان الشمالي",
+              "department_en": "Distribution - Center Crisis Focal",
+              "department_ar": "نقطة اتصال الأزمات في المركز – التوزيع",
+              "notes_en": "Center: Antelias",
+              "notes_ar": "المركز: انطلياس"
+            },
+            {
+              "id": "district-nml-center-beit-merri-paul-ibrahim",
+              "personId": "person-paul-ibrahim",
+              "role_en": "Center Crisis Focal (placeholder)",
+              "role_ar": "نقطة اتصال الأزمات في المركز (مؤقت)",
+              "district_en": "NML",
+              "district_ar": "جبل لبنان الشمالي",
+              "department_en": "Distribution - Center Crisis Focal",
+              "department_ar": "نقطة اتصال الأزمات في المركز – التوزيع",
+              "notes_en": "Center: Beit Merri",
+              "notes_ar": "المركز: بيت مري"
+            },
+            {
+              "id": "district-nml-center-bouchrieh-sarah-semaan",
+              "personId": "person-sarah-semaan",
+              "role_en": "Center Crisis Focal (placeholder)",
+              "role_ar": "نقطة اتصال الأزمات في المركز (مؤقت)",
+              "district_en": "NML",
+              "district_ar": "جبل لبنان الشمالي",
+              "department_en": "Distribution - Center Crisis Focal",
+              "department_ar": "نقطة اتصال الأزمات في المركز – التوزيع",
+              "notes_en": "Center: Bouchrieh",
+              "notes_ar": "المركز: البوشرية"
+            },
+            {
+              "id": "district-nml-center-jal-el-dib-mira-rizk",
+              "personId": "person-mira-rizk",
+              "role_en": "Center Crisis Focal (placeholder)",
+              "role_ar": "نقطة اتصال الأزمات في المركز (مؤقت)",
+              "district_en": "NML",
+              "district_ar": "جبل لبنان الشمالي",
+              "department_en": "Distribution - Center Crisis Focal",
+              "department_ar": "نقطة اتصال الأزمات في المركز – التوزيع",
+              "notes_en": "Center: Jal El Dib",
+              "notes_ar": "المركز: جل الديب"
+            },
+            {
+              "id": "district-nml-center-jbeil-mabelle-rechdan",
+              "personId": "person-mabelle-rechdan",
+              "role_en": "Center Crisis Focal (placeholder)",
+              "role_ar": "نقطة اتصال الأزمات في المركز (مؤقت)",
+              "district_en": "NML",
+              "district_ar": "جبل لبنان الشمالي",
+              "department_en": "Distribution - Center Crisis Focal",
+              "department_ar": "نقطة اتصال الأزمات في المركز – التوزيع",
+              "notes_en": "Center: Jbeil",
+              "notes_ar": "المركز: جبيل"
+            }
+          ]
+        },
+        {
+          "key": "sml1",
+          "title": {
+            "en": "SML1",
+            "ar": "جبل لبنان الجنوبي ١"
+          },
+          "roles": [
+            {
+              "id": "district-sml1-distribution-ricardo-yaakoub",
+              "personId": "person-ricardo-yaakoub",
+              "role_en": "Distribution Focal",
+              "role_ar": "نقطة اتصال التوزيع",
+              "district_en": "SML1",
+              "district_ar": "جبل لبنان الجنوبي ١",
+              "department_en": "Distribution Focal",
+              "department_ar": "نقطة اتصال التوزيع",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "district-sml1-mhpss-pgi-jana-khanafer",
+              "personId": "person-jana-khanafer",
+              "role_en": "MHPSS / PGI Focal",
+              "role_ar": "نقطة اتصال الدعم النفسي / الحماية",
+              "district_en": "SML1",
+              "district_ar": "جبل لبنان الجنوبي ١",
+              "department_en": "MHPSS / PGI Focal",
+              "department_ar": "نقطة اتصال الدعم النفسي / الحماية",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "district-sml1-fleet-georges-fardisi",
+              "personId": "person-georges-fardisi",
+              "role_en": "Fleet Focal",
+              "role_ar": "نقطة اتصال الأسطول",
+              "district_en": "SML1",
+              "district_ar": "جبل لبنان الجنوبي ١",
+              "department_en": "Fleet Focal",
+              "department_ar": "نقطة اتصال الأسطول",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "district-sml1-pmer-aida-salem",
+              "personId": "person-aida-salem",
+              "role_en": "PMER Focal",
+              "role_ar": "نقطة اتصال المتابعة والتقييم والمساءلة والتعلّم",
+              "district_en": "SML1",
+              "district_ar": "جبل لبنان الجنوبي ١",
+              "department_en": "PMER Focal",
+              "department_ar": "نقطة اتصال المتابعة والتقييم والمساءلة والتعلّم",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "district-sml1-safety-bader-zaherddine",
+              "personId": "person-bader-zaherddine",
+              "role_en": "Safety Focal",
+              "role_ar": "نقطة اتصال السلامة",
+              "district_en": "SML1",
+              "district_ar": "جبل لبنان الجنوبي ١",
+              "department_en": "Safety Focal",
+              "department_ar": "نقطة اتصال السلامة",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "district-sml1-center-baabda-rita-el-asmar",
+              "personId": "person-rita-el-asmar",
+              "role_en": "Center Crisis Focal (placeholder)",
+              "role_ar": "نقطة اتصال الأزمات في المركز (مؤقت)",
+              "district_en": "SML1",
+              "district_ar": "جبل لبنان الجنوبي ١",
+              "department_en": "Distribution - Center Crisis Focal",
+              "department_ar": "نقطة اتصال الأزمات في المركز – التوزيع",
+              "notes_en": "Center: Baabda",
+              "notes_ar": "المركز: بعبدا"
+            },
+            {
+              "id": "district-sml1-center-dahieh-naeem-shreim",
+              "personId": "person-naeem-shreim",
+              "role_en": "Center Crisis Focal (placeholder)",
+              "role_ar": "نقطة اتصال الأزمات في المركز (مؤقت)",
+              "district_en": "SML1",
+              "district_ar": "جبل لبنان الجنوبي ١",
+              "department_en": "Distribution - Center Crisis Focal",
+              "department_ar": "نقطة اتصال الأزمات في المركز – التوزيع",
+              "notes_en": "Center: Dahieh",
+              "notes_ar": "المركز: الضاحية"
+            },
+            {
+              "id": "district-sml1-center-furn-el-chebek-angie-chaaya",
+              "personId": "person-angie-chaaya",
+              "role_en": "Center Crisis Focal (placeholder)",
+              "role_ar": "نقطة اتصال الأزمات في المركز (مؤقت)",
+              "district_en": "SML1",
+              "district_ar": "جبل لبنان الجنوبي ١",
+              "department_en": "Distribution - Center Crisis Focal",
+              "department_ar": "نقطة اتصال الأزمات في المركز – التوزيع",
+              "notes_en": "Center: Furn El Chebek",
+              "notes_ar": "المركز: فرن الشباك"
+            },
+            {
+              "id": "district-sml1-center-ul-hawraa-al-atat",
+              "personId": "person-hawraa-al-atat",
+              "role_en": "Center Crisis Focal (placeholder)",
+              "role_ar": "نقطة اتصال الأزمات في المركز (مؤقت)",
+              "district_en": "SML1",
+              "district_ar": "جبل لبنان الجنوبي ١",
+              "department_en": "Distribution - Center Crisis Focal",
+              "department_ar": "نقطة اتصال الأزمات في المركز – التوزيع",
+              "notes_en": "Club: UL",
+              "notes_ar": "النادي: الجامعة اللبنانية"
+            }
+          ]
+        },
+        {
+          "key": "sml2",
+          "title": {
+            "en": "SML2",
+            "ar": "جبل لبنان الجنوبي ٢"
+          },
+          "roles": [
+            {
+              "id": "district-sml2-distribution-safi-malaeb",
+              "personId": "person-safi-malaeb",
+              "role_en": "Distribution Focal",
+              "role_ar": "نقطة اتصال التوزيع",
+              "district_en": "SML2",
+              "district_ar": "جبل لبنان الجنوبي ٢",
+              "department_en": "Distribution Focal",
+              "department_ar": "نقطة اتصال التوزيع",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "district-sml2-mhpss-pgi-jana-khanafer",
+              "personId": "person-jana-khanafer",
+              "role_en": "MHPSS / PGI Focal",
+              "role_ar": "نقطة اتصال الدعم النفسي / الحماية",
+              "district_en": "SML2",
+              "district_ar": "جبل لبنان الجنوبي ٢",
+              "department_en": "MHPSS / PGI Focal",
+              "department_ar": "نقطة اتصال الدعم النفسي / الحماية",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "district-sml2-fleet-georges-fardisi",
+              "personId": "person-georges-fardisi",
+              "role_en": "Fleet Focal",
+              "role_ar": "نقطة اتصال الأسطول",
+              "district_en": "SML2",
+              "district_ar": "جبل لبنان الجنوبي ٢",
+              "department_en": "Fleet Focal",
+              "department_ar": "نقطة اتصال الأسطول",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "district-sml2-center-aley-sally-hatoum",
+              "personId": "person-sally-hatoum",
+              "role_en": "Center Crisis Focal (placeholder)",
+              "role_ar": "نقطة اتصال الأزمات في المركز (مؤقت)",
+              "district_en": "SML2",
+              "district_ar": "جبل لبنان الجنوبي ٢",
+              "department_en": "Distribution - Center Crisis Focal",
+              "department_ar": "نقطة اتصال الأزمات في المركز – التوزيع",
+              "notes_en": "Center: Aley",
+              "notes_ar": "المركز: عاليه"
+            },
+            {
+              "id": "district-sml2-safety-bader-zaherddine",
+              "personId": "person-bader-zaherddine",
+              "role_en": "Safety Focal",
+              "role_ar": "نقطة اتصال السلامة",
+              "district_en": "SML2",
+              "district_ar": "جبل لبنان الجنوبي ٢",
+              "department_en": "Safety Focal",
+              "department_ar": "نقطة اتصال السلامة",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "district-sml2-center-chouf-jana-bou-dargham",
+              "personId": "person-jana-bou-dargham",
+              "role_en": "Center Crisis Focal (placeholder)",
+              "role_ar": "نقطة اتصال الأزمات في المركز (مؤقت)",
+              "district_en": "SML2",
+              "district_ar": "جبل لبنان الجنوبي ٢",
+              "department_en": "Distribution - Center Crisis Focal",
+              "department_ar": "نقطة اتصال الأزمات في المركز – التوزيع",
+              "notes_en": "Center: Chouf",
+              "notes_ar": "المركز: الشوف"
+            },
+            {
+              "id": "district-sml2-center-falougha-kaysar-daou",
+              "personId": "person-kaysar-daou",
+              "role_en": "Center Crisis Focal (placeholder)",
+              "role_ar": "نقطة اتصال الأزمات في المركز (مؤقت)",
+              "district_en": "SML2",
+              "district_ar": "جبل لبنان الجنوبي ٢",
+              "department_en": "Distribution - Center Crisis Focal",
+              "department_ar": "نقطة اتصال الأزمات في المركز – التوزيع",
+              "notes_en": "Center: Falougha",
+              "notes_ar": "المركز: فالوغا"
+            }
+          ]
+        },
+        {
+          "key": "beirut",
+          "title": {
+            "en": "Beirut",
+            "ar": "بيروت"
+          },
+          "roles": [
+            {
+              "id": "district-beirut-distribution-nai-majari",
+              "personId": "person-nai-majari",
+              "role_en": "Distribution Focal",
+              "role_ar": "نقطة اتصال التوزيع",
+              "district_en": "Beirut",
+              "district_ar": "بيروت",
+              "department_en": "Distribution Focal",
+              "department_ar": "نقطة اتصال التوزيع",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "district-beirut-center-aub-racha-saad",
+              "personId": "person-racha-saad",
+              "role_en": "Center Crisis Focal (placeholder)",
+              "role_ar": "نقطة اتصال الأزمات في المركز (مؤقت)",
+              "district_en": "Beirut",
+              "district_ar": "بيروت",
+              "department_en": "Distribution - Center Crisis Focal",
+              "department_ar": "نقطة اتصال الأزمات في المركز – التوزيع",
+              "notes_en": "Club: AUB",
+              "notes_ar": "النادي: الجامعة الاميريكية"
+            },
+            {
+              "id": "district-beirut-fleet-thea-chaoul",
+              "personId": "person-thea-chaoul",
+              "role_en": "Fleet Focal",
+              "role_ar": "نقطة اتصال الأسطول",
+              "district_en": "Beirut",
+              "district_ar": "بيروت",
+              "department_en": "Fleet Focal",
+              "department_ar": "نقطة اتصال الأسطول",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "district-beirut-pmer-joud-ghanem",
+              "personId": "person-joud-ghanem",
+              "role_en": "PMER Focal",
+              "role_ar": "نقطة اتصال المتابعة والتقييم والمساءلة والتعلّم",
+              "district_en": "Beirut",
+              "district_ar": "بيروت",
+              "department_en": "PMER Focal",
+              "department_ar": "نقطة اتصال المتابعة والتقييم والمساءلة والتعلّم",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "district-beirut-safety-shadi-al-hakim",
+              "personId": "person-shadi-al-hakim",
+              "role_en": "Safety Focal",
+              "role_ar": "نقطة اتصال السلامة",
+              "district_en": "Beirut",
+              "district_ar": "بيروت",
+              "department_en": "Safety Focal",
+              "department_ar": "نقطة اتصال السلامة",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "district-beirut-center-aust-ali-al-hadi-hassan-abdo",
+              "personId": "person-ali-al-hadi-hassan-abdo",
+              "role_en": "Center Crisis Focal (placeholder)",
+              "role_ar": "نقطة اتصال الأزمات في المركز (مؤقت)",
+              "district_en": "Beirut",
+              "district_ar": "بيروت",
+              "department_en": "Distribution - Center Crisis Focal",
+              "department_ar": "نقطة اتصال الأزمات في المركز – التوزيع",
+              "notes_en": "Club: AUST",
+              "notes_ar": "النادي: الجامعة الأميركية للعلوم والتكنولوجيا"
+            },
+            {
+              "id": "district-beirut-center-bau-marwa-yassin",
+              "personId": "person-marwa-yassin",
+              "role_en": "Center Crisis Focal (placeholder)",
+              "role_ar": "نقطة اتصال الأزمات في المركز (مؤقت)",
+              "district_en": "Beirut",
+              "district_ar": "بيروت",
+              "department_en": "Distribution - Center Crisis Focal",
+              "department_ar": "نقطة اتصال الأزمات في المركز – التوزيع",
+              "notes_en": "Club: BAU",
+              "notes_ar": "النادي: الجامعة العربية"
+            },
+            {
+              "id": "district-beirut-center-beirut-ahmad-chakifi",
+              "personId": "person-ahmad-chakifi",
+              "role_en": "Center Crisis Focal (placeholder)",
+              "role_ar": "نقطة اتصال الأزمات في المركز (مؤقت)",
+              "district_en": "Beirut",
+              "district_ar": "بيروت",
+              "department_en": "Distribution - Center Crisis Focal",
+              "department_ar": "نقطة اتصال الأزمات في المركز – التوزيع",
+              "notes_en": "Center: Beirut",
+              "notes_ar": "المركز: بيروت"
+            },
+            {
+              "id": "district-beirut-center-lau-souheir-jamil",
+              "personId": "person-souheir-jamil",
+              "role_en": "Center Crisis Focal (placeholder)",
+              "role_ar": "نقطة اتصال الأزمات في المركز (مؤقت)",
+              "district_en": "Beirut",
+              "district_ar": "بيروت",
+              "department_en": "Distribution - Center Crisis Focal",
+              "department_ar": "نقطة اتصال الأزمات في المركز – التوزيع",
+              "notes_en": "Club: LAU",
+              "notes_ar": "النادي: الجامعة اللبنانية الأميركية"
+            }
+          ]
+        },
+        {
+          "key": "south",
+          "title": {
+            "en": "South",
+            "ar": "الجنوب"
+          },
+          "roles": [
+            {
+              "id": "district-south-distribution-ali-hashoush",
+              "personId": "person-ali-hashoush",
+              "role_en": "Distribution Focal",
+              "role_ar": "نقطة اتصال التوزيع",
+              "district_en": "South",
+              "district_ar": "الجنوب",
+              "department_en": "Distribution Focal",
+              "department_ar": "نقطة اتصال التوزيع",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "district-south-mhpss-pgi-intisar-mokdad",
+              "personId": "person-intisar-mokdad",
+              "role_en": "MHPSS / PGI Focal",
+              "role_ar": "نقطة اتصال الدعم النفسي / الحماية",
+              "district_en": "South",
+              "district_ar": "الجنوب",
+              "department_en": "MHPSS / PGI Focal",
+              "department_ar": "نقطة اتصال الدعم النفسي / الحماية",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "district-south-fleet-rami-el-aaysami",
+              "personId": "person-rami-el-aaysami",
+              "role_en": "Fleet Focal",
+              "role_ar": "نقطة اتصال الأسطول",
+              "district_en": "South",
+              "district_ar": "الجنوب",
+              "department_en": "Fleet Focal",
+              "department_ar": "نقطة اتصال الأسطول",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "district-south-pmer-lama-karim",
+              "personId": "person-lama-karim",
+              "role_en": "PMER Focal",
+              "role_ar": "نقطة اتصال المتابعة والتقييم والمساءلة والتعلّم",
+              "district_en": "South",
+              "district_ar": "الجنوب",
+              "department_en": "PMER Focal",
+              "department_ar": "نقطة اتصال المتابعة والتقييم والمساءلة والتعلّم",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "district-south-safety-ghina-sweidan",
+              "personId": "person-ghina-sweidan",
+              "role_en": "Safety Focal",
+              "role_ar": "نقطة اتصال السلامة",
+              "district_en": "South",
+              "district_ar": "الجنوب",
+              "department_en": "Safety Focal",
+              "department_ar": "نقطة اتصال السلامة",
+              "notes_en": "",
+              "notes_ar": ""
+            },
+            {
+              "id": "district-south-center-hasbaya-haifa-zwaiehed",
+              "personId": "person-haifa-zwaiehed",
+              "role_en": "Center Crisis Focal (placeholder)",
+              "role_ar": "نقطة اتصال الأزمات في المركز (مؤقت)",
+              "district_en": "South",
+              "district_ar": "الجنوب",
+              "department_en": "Distribution - Center Crisis Focal",
+              "department_ar": "نقطة اتصال الأزمات في المركز – التوزيع",
+              "notes_en": "Center: Hasbaya",
+              "notes_ar": "المركز: حاصبيا"
+            },
+            {
+              "id": "district-south-center-jezzine-sana-seif",
+              "personId": "person-sana-seif",
+              "role_en": "Center Crisis Focal (placeholder)",
+              "role_ar": "نقطة اتصال الأزمات في المركز (مؤقت)",
+              "district_en": "South",
+              "district_ar": "الجنوب",
+              "department_en": "Distribution - Center Crisis Focal",
+              "department_ar": "نقطة اتصال الأزمات في المركز – التوزيع",
+              "notes_en": "Center: Jezzine",
+              "notes_ar": "المركز: جزين"
+            },
+            {
+              "id": "district-south-center-marjayoun-georges-fardisi",
+              "personId": "person-georges-fardisi",
+              "role_en": "Center Crisis Focal (placeholder)",
+              "role_ar": "نقطة اتصال الأزمات في المركز (مؤقت)",
+              "district_en": "South",
+              "district_ar": "الجنوب",
+              "department_en": "Distribution - Center Crisis Focal",
+              "department_ar": "نقطة اتصال الأزمات في المركز – التوزيع",
+              "notes_en": "Center: Marjayoun",
+              "notes_ar": "المركز: مرجعيون"
+            },
+            {
+              "id": "district-south-center-nabatieh-ghadir-hassouna",
+              "personId": "person-ghadir-hassouna",
+              "role_en": "Center Crisis Focal (placeholder)",
+              "role_ar": "نقطة اتصال الأزمات في المركز (مؤقت)",
+              "district_en": "South",
+              "district_ar": "الجنوب",
+              "department_en": "Distribution - Center Crisis Focal",
+              "department_ar": "نقطة اتصال الأزمات في المركز – التوزيع",
+              "notes_en": "Center: Nabatieh",
+              "notes_ar": "المركز: النبطية"
+            },
+            {
+              "id": "district-south-center-saida-samia-nakouzi",
+              "personId": "person-samia-nakouzi",
+              "role_en": "Center Crisis Focal (placeholder)",
+              "role_ar": "نقطة اتصال الأزمات في المركز (مؤقت)",
+              "district_en": "South",
+              "district_ar": "الجنوب",
+              "department_en": "Distribution - Center Crisis Focal",
+              "department_ar": "نقطة اتصال الأزمات في المركز – التوزيع",
+              "notes_en": "Center: Saida",
+              "notes_ar": "المركز: صيدا"
+            },
+            {
+              "id": "district-south-center-sour-lara-abdallah",
+              "personId": "person-lara-abdallah",
+              "role_en": "Center Crisis Focal (placeholder)",
+              "role_ar": "نقطة اتصال الأزمات في المركز (مؤقت)",
+              "district_en": "South",
+              "district_ar": "الجنوب",
+              "department_en": "Distribution - Center Crisis Focal",
+              "department_ar": "نقطة اتصال الأزمات في المركز – التوزيع",
+              "notes_en": "Center: Sour",
+              "notes_ar": "المركز: صور"
+            },
+            {
+              "id": "district-south-center-zahrani-mohamad-hessewe",
+              "personId": "person-mohamad-hessewe",
+              "role_en": "Center Crisis Focal (placeholder)",
+              "role_ar": "نقطة اتصال الأزمات في المركز (مؤقت)",
+              "district_en": "South",
+              "district_ar": "الجنوب",
+              "department_en": "Distribution - Center Crisis Focal",
+              "department_ar": "نقطة اتصال الأزمات في المركز – التوزيع",
+              "notes_en": "Center: Zahrani",
+              "notes_ar": "المركز: الزهراني"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "shelterSchedule": {
+    "meta": {
+      "title_en": "Shelters Schedule and Commanders",
+      "title_ar": "جدول الملاجئ والقادة",
+      "subtitle_en": "Shift planning and on-site command structure",
+      "subtitle_ar": "تخطيط المناوبات وهيكلية القيادة الميدانية"
+    },
+    "shifts": [
+      {
+        "id": "shift-2026-03-13-morning",
+        "shift_date": "2026-03-13",
+        "shift_label_en": "Morning Shift",
+        "shift_label_ar": "الدوام الصباحي",
+        "start_time": "09:00",
+        "end_time": "14:00",
+        "blocks": [
+          {
+            "id": "block-command-cell",
+            "type": "command-cell",
+            "title": {
+              "en": "Command Cell",
+              "ar": "خلية القيادة"
+            },
+            "guidance": {
+              "en": "Always have: Youth Leader, Deputy Youth Leader, PMEAL Focal. Optionally add: PSS Focal, External Communications, Security Focal, Logistics Focal, Fleet Focal.",
+              "ar": "ثابت دائماً: قائد الشباب، نائب قائد الشباب، نقطة اتصال المتابعة والتقييم. ويمكن إضافة: نقطة اتصال الدعم النفسي، التواصل الخارجي، السلامة، اللوجستيات، والأسطول."
+            },
+            "positions": [
+              {
+                "id": "position-youth-leader",
+                "role_en": "Youth Leader",
+                "role_ar": "قائد الشباب",
+                "person_name_en": "Albert Jawhar",
+                "person_name_ar": "البير جوهر",
+                "phone": "70529532",
+                "email": "national.activities.youth@redcross.org.lb"
+              },
+              {
+                "id": "position-deputy-youth-leader",
+                "role_en": "Deputy Youth Leader",
+                "role_ar": "نائب قائد الشباب",
+                "person_name_en": "Nasr Khalil",
+                "person_name_ar": "نصر خليل",
+                "phone": "76472310",
+                "email": "mande.youth@redcross.org.lb"
+              },
+              {
+                "id": "position-pmeal-focal",
+                "role_en": "PMEAL Focal",
+                "role_ar": "نقطة اتصال المتابعة والتقييم والمساءلة والتعلم",
+                "person_name_en": "Nasr Khalil",
+                "person_name_ar": "نصر خليل",
+                "phone": "76472310",
+                "email": "mande.youth@redcross.org.lb"
+              }
+            ]
+          },
+          {
+            "id": "block-teams",
+            "type": "teams-block",
+            "title": {
+              "en": "Teams Block",
+              "ar": "قسم الفرق"
+            },
+            "guidance": {
+              "en": "At least 1 team leader. Add Team Lead A, Team Lead B and continue alphabetically.",
+              "ar": "قائد فريق واحد على الأقل. أضف قائد الفريق A ثم B وتابع أبجدياً."
+            },
+            "positions": []
+          }
+        ]
+      }
+    ]
+  },
+  "auth": {
+    "users": [
+      {
+        "username": "youthtech",
+        "password": "youthtech@2026",
+        "role": "admin"
+      }
+    ]
+  }
+}
